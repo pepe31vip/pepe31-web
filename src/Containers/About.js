@@ -18,7 +18,7 @@ export default function About() {
           <div className="flex flex-col text-xl text-white">
             <br></br>$PEPE knows he made mistakes in the past, blacklisting some
             investors, launching on a weekend when you were spending time with
-            your family and friends. He wants to make things right and redo his
+            your family and friends . He wants to make things right and redo his
             billion dollar run, he’s a new version of himself, he is now PEPE
             3.1. #PEPE31
           </div>
