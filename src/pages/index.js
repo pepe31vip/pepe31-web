@@ -12,10 +12,10 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center bg-[#191A19] justify-between py-12 ${inter.className}`}
     >
-      <Hero></Hero>
-      <About></About>
-      <Tokenomics></Tokenomics>
-      <Community></Community>
+      <Hero id="#home"></Hero>
+      <About id="#about"></About>
+      <Tokenomics id="#token"></Tokenomics>
+      <Community id="#community"></Community>
     </main>
   )
 }

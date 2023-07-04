@@ -8,9 +8,9 @@ import { SocialIcon } from "react-social-icons";
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "700", subsets: ["latin"] });
 
-export default function Community() {
+export default function Community({id}) {
   return (
-    <div className="w-full h-full bg-[#D2042D] text-center px-4 justify-center items-center flex flex-col py-24">
+    <div id={id} className="w-full h-full bg-[#D2042D] text-center px-4 justify-center items-center flex flex-col py-24">
       <Image src={dance2} width={300}></Image>
       <div className={poppins500.className}>
         <div className="text-5xl pt-12">

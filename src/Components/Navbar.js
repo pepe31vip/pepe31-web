@@ -113,7 +113,7 @@ export default function Navbar() {
                   <li className="text-[#f3fbfa] text-lg hover:text-[#D2042D]">
                     <div
                       className="cursor-pointer"
-                      onClick={() => goToSection("#road")}
+                      onClick={() => goToSection("#community")}
                     >
                       community
                     </div>

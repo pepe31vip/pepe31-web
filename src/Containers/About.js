@@ -6,9 +6,9 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "600", subsets: ["latin"] });
 
-export default function About() {
+export default function About({id}) {
   return (
-    <div className=" w-full md:flex p-12 bg-[#D2042D]">
+    <div id={id} className=" w-full md:flex p-12 bg-[#D2042D]">
       <div className={poppins500.className}>
         <div className="w-full md:w-2/3 h-full items-center">
           <div className="flex flex-col text-5xl text-white">ABOUT</div>
