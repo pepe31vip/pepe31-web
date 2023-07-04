@@ -45,7 +45,7 @@ export default function Hero({ id }) {
                 </div>
                 <div className={poppins500.className}>
                   <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
-                    <Link href="">buy $PEPE 3.1</Link>
+                    <Link href="">BUY $PEPE 3.1</Link>
                   </div>
                 </div>
                 <div className="w-full h-[1px] bg-gray-700"></div>
