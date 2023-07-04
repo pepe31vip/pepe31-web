@@ -32,6 +32,7 @@ export default function Community({id}) {
             style={{width:64, height:64}}
           />
         </div>
+        <div><span className="text-black uppercase">contact us ! :  </span>  team@pepe31.vip</div>
       </div>
     </div>
   );
