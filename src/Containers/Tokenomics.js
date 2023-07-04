@@ -12,7 +12,9 @@ export default function Tokenomics({ id }) {
     <>
       <div className={poppins500.className}>
         <div className="flex flex-col py-12">
-          <div className="text-[#D2042D] text-3xl md:text-6xl pb-4 pt-12">TOKENOMICS</div>
+          <div className="text-[#D2042D] text-3xl md:text-6xl pb-4 pt-12">
+            TOKENOMICS
+          </div>
           <div className="w-full h-[1px] bg-gray-700"></div>
         </div>
       </div>
@@ -47,7 +49,7 @@ export default function Tokenomics({ id }) {
                 </div>
                 <div className={poppins.className}>
                   <div className="text-base break-words	">
-                    0x000000000000000000000000000000000
+                    0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70
                   </div>
                 </div>
                 <div className={poppins500.className}>

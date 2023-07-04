@@ -121,7 +121,7 @@ export default function Navbar() {
                   <div>
                     <div className={poppins500.className}>
                       <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
-                        <Link href="">BUY $PEPE 3.1</Link>
+                        <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">BUY $PEPE 3.1</Link>
                       </div>
                     </div>
                   </div>

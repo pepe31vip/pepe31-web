@@ -47,12 +47,13 @@ export default function Hero({ id }) {
                 <div className={poppins500.className}>
                   <div className="flex space-x-4 items-center">
                   <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
-                    <Link href="">BUY $PEPE 3.1</Link>
+                    <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">BUY $PEPE 3.1</Link>
                   </div>
                   <SocialIcon network="twitter" bgColor="white" url="https://twitter.com/pepe31coineth"></SocialIcon>
                   <SocialIcon network="telegram" bgColor="white" url="https://t.me/pepe31portal"></SocialIcon>
+                
                   </div>
-                </div>
+                </div>  <div><span className="text-[#D2042D]">Contract Address:</span> 0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70 </div>
                 <div className="w-full h-[1px] bg-gray-700"></div>
               </div>
             </div>
