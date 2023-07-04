@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Poppins } from "next/font/google";
 import logo from "../../public/assets/1.png";
+import { SocialIcon } from "react-social-icons";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "600", subsets: ["latin"] });
@@ -44,8 +45,12 @@ export default function Hero({ id }) {
                   Missed $PEPE, $PEPE2.0 and even $PEPE3? Here is your LAST chance
                 </div>
                 <div className={poppins500.className}>
+                  <div className="flex space-x-4 items-center">
                   <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
                     <Link href="">BUY $PEPE 3.1</Link>
+                  </div>
+                  <SocialIcon network="twitter" bgColor="white" url="https://twitter.com/pepe31coineth"></SocialIcon>
+                  <SocialIcon network="telegram" bgColor="white" url="https://t.me/pepe31portal"></SocialIcon>
                   </div>
                 </div>
                 <div className="w-full h-[1px] bg-gray-700"></div>

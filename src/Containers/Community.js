@@ -1,22 +1,38 @@
-
 import Image from "next/image";
 import dance2 from "../../public/assets/dance2.gif";
 
 import { Poppins } from "next/font/google";
 import logo from "../../public/assets/1.png";
+import { SocialIcon } from "react-social-icons";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "700", subsets: ["latin"] });
 
-export default function Community(){
-    return(
-        <div className="w-full h-full bg-[#D2042D] text-center px-4 justify-center items-center flex flex-col py-24">
-            <Image src={dance2} width={300} ></Image>
-            <div className={poppins500.className}>
-            <div className="text-5xl pt-12">Join the Pepe 3.1 revolution and meme your way to the future of finance!</div>
-            <div className="w-full h-[2px] mt-4 bg-black"></div>
-
-            </div>
+export default function Community() {
+  return (
+    <div className="w-full h-full bg-[#D2042D] text-center px-4 justify-center items-center flex flex-col py-24">
+      <Image src={dance2} width={300}></Image>
+      <div className={poppins500.className}>
+        <div className="text-5xl pt-12">
+          Join the Pepe 3.1 revolution and meme your way to the future of
+          finance!
         </div>
-    )
+        <div className="w-full h-[2px] mt-4 bg-black"></div>
+        <div className="space-x-6 py-8">
+          <SocialIcon
+            network="twitter"
+            bgColor="black"
+            url="https://twitter.com/pepe31coineth"
+            style={{width:64, height:64}}
+          />
+          <SocialIcon
+            network="telegram"
+            bgColor="black"
+            url="https://t.me/pepe31portal"
+            style={{width:64, height:64}}
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
