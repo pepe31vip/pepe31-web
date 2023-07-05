@@ -40,20 +40,33 @@ export default function Hero({ id }) {
                 <div className="text-xl md:text-3xl  py-8 md:px-16">
                   Welcome to
                 </div>
-                <div className="text-[80px] md:text-[120px]">PEPE 3.1</div>
+                <div className="text-[60px] md:text-[120px]">PEPE 3.1</div>
                 <div className="pt-12 text-[26px]">
-                  Missed $PEPE, $PEPE2.0 and even $PEPE3? Here is your LAST chance
+                  Missed $PEPE, $PEPE2.0 and even $PEPE3? Here is your LAST
+                  chance
                 </div>
                 <div className={poppins500.className}>
                   <div className="flex space-x-4 items-center">
-                  <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
-                    <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">BUY $PEPE 3.1</Link>
+                    <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
+                      <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">
+                        BUY $PEPE 3.1
+                      </Link>
+                    </div>
+                    <SocialIcon
+                      network="twitter"
+                      bgColor="white"
+                      url="https://twitter.com/pepe31coineth"
+                    ></SocialIcon>
+                    <SocialIcon
+                      network="telegram"
+                      bgColor="white"
+                      url="https://t.me/pepe31portal"
+                    ></SocialIcon>
                   </div>
-                  <SocialIcon network="twitter" bgColor="white" url="https://twitter.com/pepe31coineth"></SocialIcon>
-                  <SocialIcon network="telegram" bgColor="white" url="https://t.me/pepe31portal"></SocialIcon>
-                
-                  </div>
-                </div>  <div><span className="text-[#D2042D]">Contract Address:</span> 0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70 </div>
+                </div>{" "}
+                <div className="text-white break-words md:text-base text-sm  ">
+                  Contract Address: 0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70
+                </div>
                 <div className="w-full h-[1px] bg-gray-700"></div>
               </div>
             </div>
