@@ -4,6 +4,9 @@ import Link from "next/link";
 import { Poppins } from "next/font/google";
 import logo from "../../public/assets/1.png";
 import { SocialIcon } from "react-social-icons";
+import dextools from "../../public/assets/dextools.png";
+import etherscan from "../../public/assets/etherscan.png";
+
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "600", subsets: ["latin"] });
@@ -62,6 +65,9 @@ export default function Hero({ id }) {
                       bgColor="white"
                       url="https://t.me/pepe31portal"
                     ></SocialIcon>
+                    <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xe4aeff512a7e55bacb02406294b9d217d9a663ea"> <Image src={dextools} width={70}></Image></Link>
+                   <Link href="https://etherscan.io/token/0xcd7a6c2838c2054ae493b8c028b3f2538e28cc70"><Image src={etherscan}  width={70}></Image></Link>
+                    
                   </div>
                 </div>{" "}
                 <div className="text-white break-words md:text-base text-sm  ">
