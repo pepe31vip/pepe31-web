@@ -7,7 +7,6 @@ import { SocialIcon } from "react-social-icons";
 import dextools from "../../public/assets/dextools.png";
 import etherscan from "../../public/assets/etherscan.png";
 
-
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "600", subsets: ["latin"] });
 
@@ -49,9 +48,9 @@ export default function Hero({ id }) {
                   chance
                 </div>
                 <div className={poppins500.className}>
-                  <div className="flex space-x-4 items-center">
+                  <div className="flex space-x-8 items-center">
                     <div className="px-4 text-[#f3fbfa] bg-[#D2042D] rounded-xl flex items-center py-4 justify-center hover:bg-[#FF0000] ">
-                      <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">
+                      <Link className="text-sm sm:text-base md:text-3xl" href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">
                         BUY $PEPE 3.1
                       </Link>
                     </div>
@@ -65,9 +64,13 @@ export default function Hero({ id }) {
                       bgColor="white"
                       url="https://t.me/pepe31portal"
                     ></SocialIcon>
-                    <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xe4aeff512a7e55bacb02406294b9d217d9a663ea"> <Image src={dextools} width={70}></Image></Link>
-                   <Link href="https://etherscan.io/token/0xcd7a6c2838c2054ae493b8c028b3f2538e28cc70"><Image src={etherscan}  width={70}></Image></Link>
-                    
+                    <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0xe4aeff512a7e55bacb02406294b9d217d9a663ea">
+                      {" "}
+                      <Image src={dextools} width={70}></Image>
+                    </Link>
+                    <Link href="https://etherscan.io/token/0xcd7a6c2838c2054ae493b8c028b3f2538e28cc70">
+                      <Image src={etherscan} width={70}></Image>
+                    </Link>
                   </div>
                 </div>{" "}
                 <div className="text-white break-words md:text-base text-sm  ">

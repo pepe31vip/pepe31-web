@@ -24,7 +24,7 @@ export default function Community({ id }) {
           finance!
         </div>
         <div className="w-full h-[2px] mt-4 bg-black"></div>
-        <div className="space-x-6 py-8 flex w-full justify-center">
+        <div className="space-x-8 py-8 flex w-full justify-center">
           <SocialIcon
             network="twitter"
             bgColor="black"
