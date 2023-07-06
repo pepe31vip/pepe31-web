@@ -70,6 +70,9 @@ export default function Tokenomics({ id }) {
                 <div className={poppins.className}>
                   <div className="text-base">Ownership Renounced</div>
                 </div>
+                <div className={poppins.className}>
+                  <div className="text-xl md:text-3xl ">100% Liquidity Locked </div>
+                </div>
 
                 <div className="w-full h-[1px] bg-gray-700"></div>
               </div>
