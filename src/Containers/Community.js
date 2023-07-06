@@ -7,6 +7,8 @@ import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 import dextools from "../../public/assets/dextools.png";
 import etherscan from "../../public/assets/etherscan.png";
+import uniswap from "../../public/assets/uniswap.png";
+import uncx from "../../public/assets/uncx.png";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 const poppins500 = Poppins({ weight: "700", subsets: ["latin"] });
@@ -24,16 +26,16 @@ export default function Community({ id }) {
           finance!
         </div>
         <div className="w-full h-[2px] mt-4 bg-black"></div>
-        <div className="space-x-8 py-8 flex w-full justify-center">
+        <div className="space-x-8 py-8 flex w-full items-center justify-center">
           <SocialIcon
             network="twitter"
-            bgColor="black"
+            bgColor="white"
             url="https://twitter.com/pepe31coineth"
             style={{ width: 64, height: 64 }}
           />
           <SocialIcon
             network="telegram"
-            bgColor="black"
+            bgColor="white"
             url="https://t.me/pepe31portal"
             style={{ width: 64, height: 64 }}
           />
@@ -43,6 +45,12 @@ export default function Community({ id }) {
           </Link>
           <Link href="https://etherscan.io/token/0xcd7a6c2838c2054ae493b8c028b3f2538e28cc70">
             <Image src={etherscan} width={70}></Image>
+          </Link>
+          <Link href="https://app.uniswap.org/#/swap?outputCurrency=0xcd7a6C2838c2054aE493b8c028B3F2538E28CC70">
+            <Image src={uniswap} width={70}></Image>
+          </Link>
+          <Link href="https://app.uncx.network/amm/uni-v2/pair/0xe4aeff512a7e55bacb02406294b9d217d9a663ea">
+            <Image src={uncx} width={50}></Image>
           </Link>
         </div>
         <div>
